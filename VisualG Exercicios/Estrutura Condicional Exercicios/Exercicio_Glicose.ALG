@@ -5,7 +5,7 @@ Algoritmo "Exercicio Glicose"
 // Data atual  : 06/12/2023
 
 Var
-   glicose: real
+   glicose : real
 
 Inicio
    escreva("Insira a medida da glicose: ")
@@ -17,9 +17,7 @@ Inicio
         se glicose <= 140 entao
            escreval("Classificação: Elevado")
         senao
-             se glicose > 140 entao
-                escreval("Classificação: Diabetes")
-             fimse
+           escreval("Classificação: Diabetes")
         fimse
    fimse
 
