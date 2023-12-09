@@ -21,7 +21,7 @@ Inicio
    valor <- preco * quantidade
    troco <- dinheiro - valor
    
-   se (valor < dinheiro) entao
+   se (valor <= dinheiro) entao
       escreva("Troco: ",troco:1:2, " reais")
    senao
         se (valor > dinheiro) entao
