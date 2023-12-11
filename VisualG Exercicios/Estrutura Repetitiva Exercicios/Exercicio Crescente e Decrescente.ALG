@@ -1,6 +1,6 @@
 Algoritmo "Exercicio Crescente"
 
-// Descrição   : Lê dois numeros e diz se estao em ordem crescente ou decrescente
+// DescriÃ§Ã£o   : LÃª dois numeros e diz se estao em ordem crescente ou decrescente
 // Data atual  : 10/12/2023
 
 Var
@@ -23,5 +23,6 @@ Inicio
       leia(num2)
    fimenquanto
    
+   escreval("FODACE kitei...")
 
 Fimalgoritmo
