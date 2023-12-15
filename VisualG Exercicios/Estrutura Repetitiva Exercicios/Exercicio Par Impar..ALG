@@ -5,11 +5,34 @@ Algoritmo "Exercicio Par Impar"
 
 Var
 
-   n, i, : real
+   n, i, numero : inteiro
 
 Inicio
 
    escreva("Quantos numeros voce vai digitar? ")
    leia(n)
+   
+   para i de 1 ate n faca
+      escreva("Digite um numero: ")
+      leia(numero)
+      
+      se (numero > 0) e (numero % 2 = 0) entao
+         escreval("PAR POSITIVO")
+      senao
+         se (numero < 0) e (numero % 2 = 0) entao
+            escreval("PAR NIGGATIVO")
+         senao
+            se (numero > 0) e (numero % 2 <> 0) entao
+               escreval("IMPAR POSITIVO")
+            senao
+               se (numero < 0) e (numero % 2 <> 0) entao
+                  escreval("IMPAR NIGGATIVO")
+               senao
+                  escreval("NULO")
+               fimse
+            fimse
+         fimse
+      fimse
+   fimpara
 
 Fimalgoritmo
