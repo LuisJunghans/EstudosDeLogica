@@ -1,6 +1,6 @@
 Algoritmo "Exercicio Par Impar"
 
-// Descrição   : Identifica se o numero é par, impar, positivo, negativo ou nulo
+// DescriÃ§Ã£o   : Identifica se o numero Ã© par, impar, positivo, negativo ou nulo
 // Data atual  : 12/12/2023
 
 Var
@@ -20,13 +20,13 @@ Inicio
          escreval("PAR POSITIVO")
       senao
          se (numero < 0) e (numero % 2 = 0) entao
-            escreval("PAR NIGGATIVO")
+            escreval("PAR NEGATIVO")
          senao
             se (numero > 0) e (numero % 2 <> 0) entao
                escreval("IMPAR POSITIVO")
             senao
                se (numero < 0) e (numero % 2 <> 0) entao
-                  escreval("IMPAR NIGGATIVO")
+                  escreval("IMPAR NEGATIVO")
                senao
                   escreval("NULO")
                fimse
