@@ -1,6 +1,6 @@
 Algoritmo "Exercicio Media dos Pares"
 
-// Descrição   : Calcula a media dos numeros pares do vetor
+// DescriÃ§Ã£o   : Calcula a media dos numeros pares do vetor
 // Data atual  : 22/12/2023
 
 Var
@@ -33,9 +33,9 @@ Inicio
    fimpara
    
    se media = 0 entao
-      escreva("NENHUM NUMERO PAR")
+      escreval("NENHUM NUMERO PAR")
    senao
-      escreva("MEDIA DOS PARES = ", media:1:1)
+      escreval("MEDIA DOS PARES = ", media:1:1)
    fimse
 
 Fimalgoritmo
