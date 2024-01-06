@@ -13,7 +13,6 @@ Var
    vet : vetor [0..9] de real
    somaPositivo : real
    linha, coluna : inteiro
-   diagonalPrincipal : vetor [0..9] de real
    VetLinha, VetColuna : vetor [0..9] de real
    
 Inicio
@@ -37,62 +36,43 @@ Inicio
    fimpara
    
    escreval
-   escreva("SOMA DOS POSITIVOS: ", somaPositivo)
-   escreval
-   escreval
+   escreval("SOMA DOS POSITIVOS: ", somaPositivo)
    
+   escreval
    escreva("Escolha uma linha: ")
    leia(linha)
    
    escreva("LINHA ESCOLHIDA: ")
-   para i de linha ate linha faca
-      para j de 0 ate n-1 faca
-         VetLinha[i] <- matriz[linha,j]
-         escreva(VetLinha[i])
-      fimpara
+   para j de 0 ate n-1 faca
+      VetLinha[i] <- matriz[linha,j]
+      escreva(VetLinha[i])
    fimpara
-   
    escreval
+
    escreval
-   
    escreva("Escolha uma coluna: ")
    leia(coluna)
-
    escreva("COLUNA ESCOLHIDA: ")
    para i de 0 ate n-1 faca
-      para j de coluna ate coluna faca
-         VetColuna[i] <- matriz[i,coluna]
-         escreva(VetColuna[i])
-      fimpara
+      VetColuna[i] <- matriz[i,coluna]
+      escreva(VetColuna[i])
    fimpara
-   
-   escreval
    escreval
    
+   escreval
    escreva("DIAGONAL PRINCIPAL: ")
    para i de 0 ate n-1 faca
-      para j de 0 ate n-1 faca
-         se i = j entao
-            diagonalPrincipal[i] <- matriz[i,j]
-            escreva(diagonalPrincipal[i])
-         fimse
-      fimpara
+      escreva(matriz[i,i])
    fimpara
-   
-   escreval
    escreval
    
+   escreval
    escreval("MATRIZ ALTERADA: ")
    para i de 0 ate n-1 faca
       para j de 0 ate n-1 faca
          se matriz[i,j] < 0 entao
-            matriz[i,j] <- matriz[i,j] ^ 2
+            matriz[i,j] <- Exp (matriz[i,j], 2)
          fimse
-      fimpara
-   fimpara
-   
-   para i de 0 ate n-1 faca
-      para j de 0 ate n-1 faca
          escreva(matriz[i,j])
       fimpara
       escreval
