@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1707494566 source:c:\users\felip\onedrive\desktop\logica_de_programação\udemy\c\estrutura repetitiva\estrutura repetitiva exercicios\exercicio experiencias\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
