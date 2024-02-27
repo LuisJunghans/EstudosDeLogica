@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1708096347 source:c:\users\felip\onedrive\desktop\logica_de_programação\udemy\c\vetores\vetor exercicios\exercicio alturas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
