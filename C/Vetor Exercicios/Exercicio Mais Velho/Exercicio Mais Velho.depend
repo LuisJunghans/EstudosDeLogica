@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1709130891 source:c:\users\felip\onedrive\desktop\logica_de_programação\udemy\c\vetores\vetor exercicios\exercicio mais velho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
